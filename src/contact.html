@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CONTACT US | AKAD.</title>
+		//=include templates/_head.html
+	</head>
+	<body>
+	<div class="ba-intro" style="background-image: url(./assets/img/bg.jpg)">
+
+		//=include templates/header.html
+
+		<div class="container">
+			<div class="ba-intro__body text-center">
+				<h1 class="ba-page-title">
+					Contact us
+				</h1>
+			</div>
+			<!-- /.ba-intro__body -->
+		</div>
+	</div>
+		<main>
+			<!-- BEGIN container  -->
+			<div class="container">
+				<section class="ba-section row">
+					<div class="col-xs-12 col-sm-6">
+						<form action="#" method="post" class="ba-contact-form">
+							<div class="form-row">
+								<div class="form-group ba-contact-form__name">
+									<input type="text" class="form-control"  placeholder="YOUR NAME">
+								</div>
+								<div class="form-group ba-contact-form__email">
+									<input type="email" class="form-control" id="inputEmail4" placeholder="YOUR EMAIL">
+								</div>
+							</div>
+							<div class="form-group">
+								<input type="text" required name="object" class="form-control" placeholder="OBJECT">
+							</div>
+							<textarea name="message" rows="10" class="form-control ba-contact-form__textarea" placeholder="MESSAGE"></textarea>
+							<button class="btn btn-primary ba-contact-form__btn">SEND</button>
+						</form>
+						<div class="ba-contact-info">
+							<h3 class="ba-contact-info__title">
+								CONTACT INFO
+							</h3>
+							<p class="ba-contact-info__text">Lorem ipsum dolor sit amet, conse adipisicing elit. Libero incidunt quod ab mollitia quia dolorum conse.</p>
+							<ul class="ba-contact-info__list">
+								<li class="ba-contact-info__text">13D, Functional apartment, Unique colony,
+									Agadir 863600
+								</li>
+								<li><a href="tel:+212 124-566-780" class="ba-contact-info__links">+212 124-566-780</a></li>
+								<li><a href="tel:+212 124-566-780" class="ba-contact-info__links">+212 124-566-780</a></li>
+								<li class="ba-contact-info__email"><a href="mailto:email@website.com" class="ba-contact-info__links ba-contact-info__links--email ">email@website.com</a></li>
+							</ul>
+							<ul class="ba-social ba-social--left">
+								<li><a href="#"><i class="ba-social__icon ion-social-facebook"></i></a></li>
+								<li><a href="#"><i class="ba-social__icon ion-social-twitter"></i></a></li>
+								<li><a href="#"><i class="ba-social__icon ion-social-youtube"></i></a></li>
+								<li><a href="#"><i class="ba-social__icon ion-social-linkedin"></i></a></li>
+								<li><a href="#"><i class="ba-social__icon ion-social-pinterest"></i></a></li>
+								<li><a href="#"><i class="ba-social__icon ion-social-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- /.col-xs-12 col-sm-6 -->
+					<div class="col-xs-12 col-sm-6">
+						<div id="ba-map" class="ba-map"></div>
+						<!-- /.ba-map -->
+					</div>
+					<!-- /.col-xs-12 col-sm-6 -->
+				</section>
+			</div>
+			<!-- END container -->
+            //=include templates/subscribe.html
+		</main>
+
+		//=include templates/footer.html
+	<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeW7hO7vrETxIlrI6mhIhyM1IKUGl-fnE">
+	</script>
+		//=include templates/scripts.html
+	</body>
+</html>
